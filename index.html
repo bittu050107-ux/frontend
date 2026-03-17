@@ -4,11 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
     
-    <script src="index.js"></script>
+    <nav class="navbar">
+        <div class="logo">
+            Daily Manager
+        </div>
+        <ul class="nav-lonnls">
+            <li><a href="index.html"></a>Dashboard</li>
+            <li><a href="habit.html"></a>Habits</li>
+            <li><a href="planner.html"></a>Planner</li>
+            <li><a href="notes.html"></a>Notes</li>
+            <li><a href="progress.html"></a>Progess</li>
+            <li><a href="profile.html"></a>Profile</li>
+            
+        </ul>
+    </nav>
+    <main class="container">
+        <header class="page-header fade-in">
+            <h1 id="greetin-message">Good Morning</h1>
+            <p id="current-date">Today is...</p>
+        </header>
+        <section class="grid-3 fade-in" > 
+            <div class="card">
+                <h3>Total Habits</h3>
+                <p id="total-habits">0</p>
+            </div>
+            <div>
+                <h3>Complete Habits</h3>
+                <p>0</p>
+            </div>
+            <div>
+                <h3>Total Task Today</h3>
+                <p>0</p>
+            </div>
+            
+        </section>
+    </main>
+    <script src="javascript/index.js"></script>
+    <script src="javascript/global.js"></script>
 </body>
 </html>
