@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f6fa;
+}
+
+.profile-section {
+    width: 70%;
+    margin: 80px auto;
+    text-align: center;
+}
+
+.profile-section h1 {
+    font-size: 42px;
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+
+.profile-section p {
+    color: #64748b;
+    margin-bottom: 20px;
+}
+
+
+.profile-card {
+    background: linear-gradient(to right, #6c63ff, #7f5af0);
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.profile-form {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.profile-form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    color: #1e293b;
+    font-weight: bold;
+}
+
+
+.profile-form input,
+.profile-form textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 15px;
+}
+
+
+.profile-form textarea {
+    height: 80px;
+    resize: none;
+}
+
+
+.profile-form button {
+    margin-top: 20px;
+    width: 100%;
+    padding: 14px;
+    background: linear-gradient(to right, #6c63ff, #7f5af0);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.profile-form button:hover {
+    opacity: 0.9;
+}

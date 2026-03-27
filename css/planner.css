@@ -1,0 +1,108 @@
+
+
+.planner-section {
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+.planner-section h1 {
+    font-size: 42px;
+    color: #1e293b;
+    margin-bottom: 10px;
+}
+
+
+.planner-section p {
+    color: #64748b;
+    margin-bottom: 30px;
+}
+
+.planner-box {
+    width: 70%;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+
+.planner-box input {
+    flex: 1;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+
+.planner-box button {
+    padding: 14px 25px;
+    background: linear-gradient(to right, #6c63ff, #7f5af0);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.planner-box button:hover {
+    opacity: 0.9;
+}
+
+
+
+/* Habit Lists */
+.item-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+    transition: var(--transition);
+}
+
+.list-item:hover {
+    background-color: #f1f5f9;
+}
+
+.list-item.completed {
+    opacity: 0.7;
+    background-color: #f8fafc;
+}
+
+.list-item.completed span {
+    text-decoration: line-through;
+    color: var(--text-muted);
+}
+
+.item-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 1.2rem;
+    height: 1.2rem;
+    accent-color: var(--primary);
+    cursor: pointer;
+}
+#item{
+    width: 70%;
+    margin-left: 230px;
+}

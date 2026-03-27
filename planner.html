@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Planner</title>
+    <link rel="stylesheet" href="css/planner.css">
+    <link rel="stylesheet" href="css/global.css">
+</head>
+<body>
+   <nav class="navbar">
+        <div class="logo">Daily Manager</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="habits.html">Habits</a></li>
+            <li><a href="planner.html">Planner</a></li>
+            <li><a href="notes.html">Notes</a></li>
+            <li><a href="progress.html">Progress</a></li>
+            <li><a href="profile.html">Profile</a></li>
+        </ul>
+    </nav>
+    <section class="planner-section">
+        <h1>Daily Planner</h1>
+        <p>Organize your day with a simple schedule planner.</p>
+
+        <div class="planner-box">
+            <input id="inp" type="text" placeholder="What do you need to do?">
+            <input id="inp-time" type="text" placeholder="12:30 PM">
+            <button id="btn">Add Task</button>
+           
+        </div>
+         <ul id="item">
+
+        </ul>
+    </section>
+
+    <script src="javascript/global.js"></script>
+    <script src="javascript/planner.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.grid-3{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.nav-lonnls{
+    justify-content: center;
+    display: flex;
+
+}
+li{
+    margin-left: 70px;
+    list-style: none;
+    font-weight: 300px;
+    
+}
+.card{
+    height: 136px;
+    width: 200px;
+}
+
+li:hover{
+ 
+    color: blue;
+}
+p{
+    color: blue;
+    font-size: medium;
+}

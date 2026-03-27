@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/habit.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Daily Manager</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="habit.html">Habits</a></li>
+            <li><a href="planner.html">Planner</a></li>
+            <li><a href="notes.html">Notes</a></li>
+            <li><a href="progress.html">Progress</a></li>
+            <li><a href="profile.html">Profile</a></li>
+        </ul>
+    </nav>
+
+    <main class="container fade-in">
+        <header class="page-header">
+            <h1>Daily Habits</h1>
+            <p>Track your daily routines to build better habits.</p>
+        </header>
+
+        <div class="weekly-tracker card" style="margin-top: 0;">
+            <div class="weekly-heading">
+                <div class="weekly-input" style="display: flex; width: 100%;">
+                    <input type="text" placeholder="Enter a new habit (e.g., Drink water)" id="habit-input" style="flex: 1; margin-right: 15px;">
+                    <button id="add-habit-btn">Add Habit</button>
+                </div>
+            </div>
+
+            <table id="weekly-habit">
+                <thead>
+                    <tr>
+                        <th>Habit</th>
+                        <th>Mon</th>
+                        <th>Tue</th>
+                        <th>Wed</th>
+                        <th>Thu</th>
+                        <th>Fri</th>
+                        <th>Sat</th>
+                        <th>Sun</th>
+                        <th>Percentage</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+
+                <tbody id="habits-list">
+                    <!-- Data populated dynamically via Javascript -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="javascript/global.js"></script>
+    <script src="javascript/habit.js"></script>
+</body>
+
+</html>

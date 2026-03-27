@@ -2,12 +2,41 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="global.css">
-    <link rel="stylesheet" href="notes.css">
+    <title>Quick Notes</title>
+    <link rel="stylesheet" href="css/notes.css">
+    <link rel="stylesheet" href="css/global.css">
 </head>
 <body>
-    
+    <nav class="navbar">
+        <div class="logo">Daily Manager</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Dashboard</a></li>
+            <li><a href="habits.html">Habits</a></li>
+            <li><a href="planner.html">Planner</a></li>
+            <li><a href="notes.html">Notes</a></li>
+            <li><a href="progress.html">Progress</a></li>
+            <li><a href="profile.html">Profile</a></li>
+        </ul>
+    </nav>
+
+
+    <section class="notes-section">
+        <h1>Quick Notes</h1>
+        <p>Jot down your thoughts, ideas, or reminders.</p>
+
+        <div class="notes-box">
+            <input id="notes-input" placeholder="Write your note here..."></input>
+            <button id="btn">Save Note</button>
+           <br>
+               
+        </div>
+      
+       <ul  class="item-list" id="notes-list" >
+
+            </ul>
+    </section>
+
+    <script src="javascript/notes.js"></script>
+    <script src="javascript/global.js"></script>
 </body>
 </html>
